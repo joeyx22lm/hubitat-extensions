@@ -1,0 +1,25 @@
+{
+	"packageName": "DD-WRT Device Presence Monitor",
+	"minimumHEVersion": "2.2.7",
+	"author": "Joseph Orlando",
+	"version": "1.0.0",
+	"dateReleased": "2021-08-15",
+	"licenseFile": "https://raw.githubusercontent.com/joeyx22lm/hubitat-extensions/main/dd-wrt-presence/LICENSE",
+	"releaseNotes": "",
+	"drivers" : [
+		{
+			"id": "19E9787C-7303-4B66-A034-2E545768249B",
+			"name": "DD-WRT Presence Monitor",
+			"namespace": "com.joeyorlando.hubitat.ddwrt",
+			"location": "https://raw.githubusercontent.com/joeyx22lm/hubitat-extensions/main/dd-wrt-presence/dd-wrt-presence.groovy",
+			"required": true
+		},
+		{
+			"id": "72D7FD5B-6261-455C-9D6D-BEEFD02D9B4D",
+			"name": "DD-WRT Child Presence Monitor",
+			"namespace": "com.joeyorlando.hubitat.ddwrt",
+			"location": "https://raw.githubusercontent.com/joeyx22lm/hubitat-extensions/main/dd-wrt-presence/dd-wrt-child-presence.groovy",
+			"required": true
+		}
+	]
+}

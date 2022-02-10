@@ -1,0 +1,18 @@
+{
+	"packageName": "AirThings Cloud Air Quality Monitor",
+	"minimumHEVersion": "2.2.7",
+	"author": "Joseph Orlando",
+	"version": "1.0.0",
+	"dateReleased": "2021-08-15",
+	"licenseFile": "https://raw.githubusercontent.com/joeyx22lm/hubitat-extensions/main/airthings-wave-monitor/LICENSE",
+	"releaseNotes": "",
+	"drivers" : [
+		{
+			"id": "435B98F0-17EB-48AF-85EB-D8E6CE532AA5",
+			"name": "Airthings Wave Cloud Import",
+			"namespace": "com.joeyorlando.hubitat.airthings",
+			"location": "https://raw.githubusercontent.com/joeyx22lm/hubitat-extensions/main/airthings-wave-monitor/airthings-csv-import.groovy",
+			"required": true
+		}
+	]
+}
